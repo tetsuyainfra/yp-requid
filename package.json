@@ -1,0 +1,16 @@
+{
+  "name": "yp-requid",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "sites/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "astro": "5.13.7"
+  },
+  "devDependencies": {
+  }
+}
