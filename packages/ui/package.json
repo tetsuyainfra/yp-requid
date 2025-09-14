@@ -13,11 +13,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "exports": {
-    "./layout": "./src/layouts/Layout.astro"
+    ".": "./src/index.js",
+    "./layouts": "./src/layouts/index.js",
+    "./header": "./src/components/Header.astro"
   },
   "dependencies": {
     "astro": "5.13.7"
   },
   "devDependencies": {
+    "@astrojs/node": "^9.4.3"
   }
 }

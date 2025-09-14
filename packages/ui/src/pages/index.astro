@@ -1,0 +1,17 @@
+---
+import { Layout } from "../layouts"
+import Navigation from "../layouts/Navigation.astro"
+const pageTitle='@yp-requid/ui title'
+---
+<Layout title={pageTitle}>
+    <Navigation slot="navigation">
+        {pageTitle} Navigation
+    </Navigation>
+    <!-- <Footer slot="footer" /> -->
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+    </h1>
+    <div>
+        <a href="/mockup">Mockup</a>
+    </div>
+</Layout>
