@@ -18,7 +18,9 @@
     "./header": "./src/components/Header.astro"
   },
   "dependencies": {
-    "astro": "5.13.7"
+    "@tailwindcss/vite": "^4.1.13",
+    "astro": "5.13.7",
+    "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "@astrojs/node": "^9.4.3"
