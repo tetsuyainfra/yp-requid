@@ -11,5 +11,8 @@
   "dependencies": {
     "@yp-requid/ui": "^0.1.0",
     "astro": "5.13.7"
+  },
+  "devDependencies": {
+    "@astrojs/ts-plugin": "^1.10.4"
   }
 }

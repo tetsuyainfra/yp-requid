@@ -1,11 +1,14 @@
 ---
 import Welcome from '../components/Welcome.astro';
-import Layout from '@yp-requid/ui/layout';
+// import Header from '@yp-requid/ui/src/components/Header.astro';
+import { Header } from '@yp-requid/ui';
+import { Layout } from '@yp-requid/ui/layouts';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
+	<Header>Yp Requid</Header>
 	 Index
 </Layout>
