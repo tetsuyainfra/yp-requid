@@ -1,10 +1,6 @@
 {
   "name": "yp-requid",
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "sites/*"
-  ],
   "engines": {
     "pnpm": "10.17.0",
     "npm": "please_use_pnpm_instead",
