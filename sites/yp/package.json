@@ -9,7 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@yp-requid/ui": "^0.1.0",
+    "@yp-requid/ui": "workspace:*",
     "astro": "5.13.7"
   },
   "devDependencies": {
